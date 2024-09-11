@@ -1,0 +1,10 @@
+/* styles/App.module.css */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+[data-particle] {
+  animation: 3s ease infinite alternate pulse; /* Apply to the particle stream element */
+}
